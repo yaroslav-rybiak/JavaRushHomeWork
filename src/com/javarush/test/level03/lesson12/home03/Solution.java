@@ -13,5 +13,8 @@ public class Solution
     public static void main(String[] args)   throws Exception
     {
         //напишите тут ваш код
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String pricePerHour = in.readLine();
+        System.out.println("Я буду зарабатывать $" + pricePerHour + " в час");
     }
 }
