@@ -1,4 +1,11 @@
-/out
-/.idea
+# For all JetBrains IDEs
 *.iml
+
+# Directory-based project format
+/.idea
+
+# Folder with compiled classes
+/out
+
+# File with javarush secret code
 JavaRushPlugin.properties
